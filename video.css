@@ -1,0 +1,90 @@
+
+body,h1,h2,h3,h4,h5,h6{}
+
+/* slider setion */
+
+.slider-section{
+    background: url(https://www.overseasattractions.com/wp-content/uploads/2019/04/bgc-things-to-do.jpg) no-repeat center center;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    z-index: -1;
+}
+
+.Ujjal-heder .navbar-brand{
+font-size: 25px;
+font-weight: 500px;
+}
+
+.Ujjal-heder span{
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    height: 43px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.slider-section h4{
+    margin-bottom: 35px;
+    font-size: 35px;
+    color: rgb(13, 14, 14);
+}
+.slider-section h2{
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: rgb(1, 8, 6);
+}
+
+/* slider-caption */
+
+.slider-caption .btn{
+    padding: 20px 10px;
+}
+.slider-caption .form-control{
+    padding: 20px 10px;
+}
+
+/* about-setion */
+
+.about-setion{
+    background: rgb(218, 189, 189);
+}
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .lead{
+    font-size: 20px;
+    line-height: 2.7;
+}
+
+/* <!-- Fecer-setion --> */
+
+.fecer-setion-item{
+    height: 300px;
+}
+
+.facer-sec{
+    width: 40%;
+}
+.fecer-sec img{
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+}
+.facer-text{
+    width: 60%;
+}
